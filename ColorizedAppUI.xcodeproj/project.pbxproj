@@ -11,6 +11,8 @@
 		CE2C029A294760AA00D00409 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C0299294760AA00D00409 /* ContentView.swift */; };
 		CE2C029C294760B000D00409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2C029B294760B000D00409 /* Assets.xcassets */; };
 		CE2C029F294760B000D00409 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2C029E294760B000D00409 /* Preview Assets.xcassets */; };
+		CE2C02AE2947678D00D00409 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C02AB2947678D00D00409 /* TextFieldView.swift */; };
+		CE2C02B02947678D00D00409 /* SliderColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C02AD2947678D00D00409 /* SliderColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE2C0299294760AA00D00409 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE2C029B294760B000D00409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2C029E294760B000D00409 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE2C02AB2947678D00D00409 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		CE2C02AD2947678D00D00409 /* SliderColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CE2C0297294760AA00D00409 /* ColorizedAppUIApp.swift */,
 				CE2C0299294760AA00D00409 /* ContentView.swift */,
+				CE2C02AD2947678D00D00409 /* SliderColorView.swift */,
+				CE2C02AB2947678D00D00409 /* TextFieldView.swift */,
 				CE2C029B294760B000D00409 /* Assets.xcassets */,
 				CE2C029D294760B000D00409 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2C02B02947678D00D00409 /* SliderColorView.swift in Sources */,
 				CE2C029A294760AA00D00409 /* ContentView.swift in Sources */,
 				CE2C0298294760AA00D00409 /* ColorizedAppUIApp.swift in Sources */,
+				CE2C02AE2947678D00D00409 /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
