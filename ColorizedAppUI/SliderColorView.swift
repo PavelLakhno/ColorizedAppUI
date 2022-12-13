@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SliderColorView: View {
-    @State private var text = ""
     @Binding var value: Double
+    @State private var text = ""
     
     let color: Color
     
