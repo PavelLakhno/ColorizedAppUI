@@ -16,7 +16,11 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color.gray.ignoresSafeArea()
+            Color.gray
+                .ignoresSafeArea()
+                .onTapGesture {
+                    isFocused = false
+                }
             
             VStack(spacing: 40) {
                 Color(red: red / 255, green: green / 255, blue: blue / 255)
